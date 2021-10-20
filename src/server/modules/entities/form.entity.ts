@@ -13,7 +13,4 @@ export class Form {
 
   @Column('text')
   message: string;
-
-  @Column({ default: false })
-  isCompleted: boolean;
 }
